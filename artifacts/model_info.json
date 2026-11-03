@@ -1,0 +1,26 @@
+{
+    "best_model_name": "LightGBM",
+    "best_accuracy": 0.9983710702068741,
+    "n_features": 8,
+    "feature_names": [
+        "Alkphos Alkaline Phosphotase",
+        "Sgot Aspartate Aminotransferase",
+        "Sgpt Alamine Aminotransferase",
+        "Total Bilirubin",
+        "A/G Ratio Albumin and Globulin Ratio",
+        "Direct Bilirubin",
+        "ALB Albumin",
+        "Total Protiens"
+    ],
+    "all_models_accuracy": {
+        "RandomForest": 0.9978823912689363,
+        "KNN": 0.9934842808274963,
+        "LogisticRegression": 0.6724222186023783,
+        "SVM": 0.8405277732529728,
+        "AdaBoost": 0.9978823912689363,
+        "XGBoost": 0.9962534614758104,
+        "CatBoost": 0.9982081772275615,
+        "LightGBM": 0.9983710702068741,
+        "ANN": 0.9933213878481837
+    }
+}
